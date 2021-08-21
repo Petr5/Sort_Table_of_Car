@@ -51,10 +51,10 @@ namespace car
         }
         else{ // compare name of student
             for (int i =0; i < std::min(this->name.size(), other.name.size()); i++){
-                if (this->name[i] < other.name[i]){
+                if (this->name[i] > other.name[i]){
                     return true;
                 }
-                else if (this->name[i] > other.name[i]){
+                else if (this->name[i] < other.name[i]){
                     return false;
                 }
 

@@ -1,9 +1,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <chrono>
 #include "Car.h"
 
 using namespace std;
+using namespace std::chrono;
 void BubbleSort(std::vector<car::Car>& table);
 
 std::vector<string> split (const string& s, const string& delimiter) {
@@ -33,7 +35,7 @@ void BubbleSort(std::vector<car::Car>& table){
 int main() {
     setlocale(LC_ALL, "Russian");
     std::cout << "i begin readnig file" << std::endl;
-    std::string path = R"(C:\Users\petrm\Documents\SortTemplate\csv files\student 10000.csv)";
+    std::string path = R"(C:\Users\petrm\Documents\SortTemplate\csv files\student 100000.csv)";
 
     std::string str;
     std::ifstream fin;
@@ -56,9 +58,15 @@ int main() {
         }
 
     }
+
+    auto start = high_resolution_clock::now();
     BubbleSort(table);
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    std::cout << duration.count() / 1e6 <<"seconds" <<  std::endl;
     ofstream out;
-    out.open(path);
+    std::string path2 = R"(C:\Users\petrm\Documents\SortTemplate\csv files\sorted student 100000.csv)";
+    out.open(path2);
     for (int j = 0; j < table.size(); j++){
         out << table[j]  << std:: endl;
     }
