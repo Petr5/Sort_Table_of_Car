@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Project.dir/MyTable.cpp.obj"
-  "CMakeFiles/Project.dir/Table_of_Car.cpp.obj"
+  "CMakeFiles/Project.dir/Car.cpp.obj"
   "CMakeFiles/Project.dir/main.cpp.obj"
   "Project.exe"
   "Project.exe.manifest"

@@ -79,59 +79,38 @@ CMakeFiles\Project.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\main.cpp.s /c C:\Users\petrm\CLionProjects\Project\main.cpp
 <<
 
-CMakeFiles\Project.dir\MyTable.cpp.obj: CMakeFiles\Project.dir\flags.make
-CMakeFiles\Project.dir\MyTable.cpp.obj: ..\MyTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project.dir/MyTable.cpp.obj"
+CMakeFiles\Project.dir\Car.cpp.obj: CMakeFiles\Project.dir\flags.make
+CMakeFiles\Project.dir\Car.cpp.obj: ..\Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project.dir/Car.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project.dir\MyTable.cpp.obj /FdCMakeFiles\Project.dir\ /FS -c C:\Users\petrm\CLionProjects\Project\MyTable.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project.dir\Car.cpp.obj /FdCMakeFiles\Project.dir\ /FS -c C:\Users\petrm\CLionProjects\Project\Car.cpp
 <<
 
-CMakeFiles\Project.dir\MyTable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/MyTable.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Project.dir\MyTable.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\petrm\CLionProjects\Project\MyTable.cpp
+CMakeFiles\Project.dir\Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Car.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Project.dir\Car.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\petrm\CLionProjects\Project\Car.cpp
 <<
 
-CMakeFiles\Project.dir\MyTable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/MyTable.cpp.s"
+CMakeFiles\Project.dir\Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Car.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\MyTable.cpp.s /c C:\Users\petrm\CLionProjects\Project\MyTable.cpp
-<<
-
-CMakeFiles\Project.dir\Table_of_Car.cpp.obj: CMakeFiles\Project.dir\flags.make
-CMakeFiles\Project.dir\Table_of_Car.cpp.obj: ..\Table_of_Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project.dir/Table_of_Car.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project.dir\Table_of_Car.cpp.obj /FdCMakeFiles\Project.dir\ /FS -c C:\Users\petrm\CLionProjects\Project\Table_of_Car.cpp
-<<
-
-CMakeFiles\Project.dir\Table_of_Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Table_of_Car.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Project.dir\Table_of_Car.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\petrm\CLionProjects\Project\Table_of_Car.cpp
-<<
-
-CMakeFiles\Project.dir\Table_of_Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Table_of_Car.cpp.s"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\Table_of_Car.cpp.s /c C:\Users\petrm\CLionProjects\Project\Table_of_Car.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\Car.cpp.s /c C:\Users\petrm\CLionProjects\Project\Car.cpp
 <<
 
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles\Project.dir\main.cpp.obj" \
-"CMakeFiles\Project.dir\MyTable.cpp.obj" \
-"CMakeFiles\Project.dir\Table_of_Car.cpp.obj"
+"CMakeFiles\Project.dir\Car.cpp.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
 
 Project.exe: CMakeFiles\Project.dir\main.cpp.obj
-Project.exe: CMakeFiles\Project.dir\MyTable.cpp.obj
-Project.exe: CMakeFiles\Project.dir\Table_of_Car.cpp.obj
+Project.exe: CMakeFiles\Project.dir\Car.cpp.obj
 Project.exe: CMakeFiles\Project.dir\build.make
 Project.exe: CMakeFiles\Project.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Project.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Project.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Project.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Project.dir\objects1.rsp @<<
  /out:Project.exe /implib:Project.lib /pdb:C:\Users\petrm\CLionProjects\Project\cmake-build-debug\Project.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

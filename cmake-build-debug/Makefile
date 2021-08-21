@@ -126,59 +126,32 @@ Project\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\build
 .PHONY : Project\fast
 
-MyTable.obj: MyTable.cpp.obj
+Car.obj: Car.cpp.obj
 
-.PHONY : MyTable.obj
-
-# target to build an object file
-MyTable.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\MyTable.cpp.obj
-.PHONY : MyTable.cpp.obj
-
-MyTable.i: MyTable.cpp.i
-
-.PHONY : MyTable.i
-
-# target to preprocess a source file
-MyTable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\MyTable.cpp.i
-.PHONY : MyTable.cpp.i
-
-MyTable.s: MyTable.cpp.s
-
-.PHONY : MyTable.s
-
-# target to generate assembly for a file
-MyTable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\MyTable.cpp.s
-.PHONY : MyTable.cpp.s
-
-Table_of_Car.obj: Table_of_Car.cpp.obj
-
-.PHONY : Table_of_Car.obj
+.PHONY : Car.obj
 
 # target to build an object file
-Table_of_Car.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Table_of_Car.cpp.obj
-.PHONY : Table_of_Car.cpp.obj
+Car.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.obj
+.PHONY : Car.cpp.obj
 
-Table_of_Car.i: Table_of_Car.cpp.i
+Car.i: Car.cpp.i
 
-.PHONY : Table_of_Car.i
+.PHONY : Car.i
 
 # target to preprocess a source file
-Table_of_Car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Table_of_Car.cpp.i
-.PHONY : Table_of_Car.cpp.i
+Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.i
+.PHONY : Car.cpp.i
 
-Table_of_Car.s: Table_of_Car.cpp.s
+Car.s: Car.cpp.s
 
-.PHONY : Table_of_Car.s
+.PHONY : Car.s
 
 # target to generate assembly for a file
-Table_of_Car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Table_of_Car.cpp.s
-.PHONY : Table_of_Car.cpp.s
+Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.s
+.PHONY : Car.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -216,12 +189,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project
-	@echo ... MyTable.obj
-	@echo ... MyTable.i
-	@echo ... MyTable.s
-	@echo ... Table_of_Car.obj
-	@echo ... Table_of_Car.i
-	@echo ... Table_of_Car.s
+	@echo ... Car.obj
+	@echo ... Car.i
+	@echo ... Car.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
