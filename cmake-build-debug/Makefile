@@ -126,32 +126,32 @@ Project\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\build
 .PHONY : Project\fast
 
-Car.obj: Car.cpp.obj
+Student.obj: Student.cpp.obj
 
-.PHONY : Car.obj
+.PHONY : Student.obj
 
 # target to build an object file
-Car.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.obj
-.PHONY : Car.cpp.obj
+Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Student.cpp.obj
+.PHONY : Student.cpp.obj
 
-Car.i: Car.cpp.i
+Student.i: Student.cpp.i
 
-.PHONY : Car.i
+.PHONY : Student.i
 
 # target to preprocess a source file
-Car.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.i
-.PHONY : Car.cpp.i
+Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Student.cpp.i
+.PHONY : Student.cpp.i
 
-Car.s: Car.cpp.s
+Student.s: Student.cpp.s
 
-.PHONY : Car.s
+.PHONY : Student.s
 
 # target to generate assembly for a file
-Car.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Car.cpp.s
-.PHONY : Car.cpp.s
+Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Project.dir\Student.cpp.s
+.PHONY : Student.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -189,9 +189,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Project
-	@echo ... Car.obj
-	@echo ... Car.i
-	@echo ... Car.s
+	@echo ... Student.obj
+	@echo ... Student.i
+	@echo ... Student.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

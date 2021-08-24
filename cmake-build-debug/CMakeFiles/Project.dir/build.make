@@ -79,35 +79,35 @@ CMakeFiles\Project.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\main.cpp.s /c C:\Users\petrm\CLionProjects\Project\main.cpp
 <<
 
-CMakeFiles\Project.dir\Car.cpp.obj: CMakeFiles\Project.dir\flags.make
-CMakeFiles\Project.dir\Car.cpp.obj: ..\Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project.dir/Car.cpp.obj"
+CMakeFiles\Project.dir\Student.cpp.obj: CMakeFiles\Project.dir\flags.make
+CMakeFiles\Project.dir\Student.cpp.obj: ..\Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project.dir/Student.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project.dir\Car.cpp.obj /FdCMakeFiles\Project.dir\ /FS -c C:\Users\petrm\CLionProjects\Project\Car.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Project.dir\Student.cpp.obj /FdCMakeFiles\Project.dir\ /FS -c C:\Users\petrm\CLionProjects\Project\Student.cpp
 <<
 
-CMakeFiles\Project.dir\Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Car.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Project.dir\Car.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\petrm\CLionProjects\Project\Car.cpp
+CMakeFiles\Project.dir\Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project.dir/Student.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\Project.dir\Student.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\petrm\CLionProjects\Project\Student.cpp
 <<
 
-CMakeFiles\Project.dir\Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Car.cpp.s"
+CMakeFiles\Project.dir\Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project.dir/Student.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\Car.cpp.s /c C:\Users\petrm\CLionProjects\Project\Car.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Project.dir\Student.cpp.s /c C:\Users\petrm\CLionProjects\Project\Student.cpp
 <<
 
 # Object files for target Project
 Project_OBJECTS = \
 "CMakeFiles\Project.dir\main.cpp.obj" \
-"CMakeFiles\Project.dir\Car.cpp.obj"
+"CMakeFiles\Project.dir\Student.cpp.obj"
 
 # External object files for target Project
 Project_EXTERNAL_OBJECTS =
 
 Project.exe: CMakeFiles\Project.dir\main.cpp.obj
-Project.exe: CMakeFiles\Project.dir\Car.cpp.obj
+Project.exe: CMakeFiles\Project.dir\Student.cpp.obj
 Project.exe: CMakeFiles\Project.dir\build.make
 Project.exe: CMakeFiles\Project.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\petrm\CLionProjects\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Project.exe"

@@ -1,25 +1,26 @@
 //
-// Created by petrm on 21.08.2021.
+// Created by petrm on 22.08.2021.
 //
 
-#include "Car.h"
+#include "Student.h"
 
-namespace car
+
+namespace student
 {
 
-    Car::Car(std::string& name, std::string& faculty , int group, int score) {
+    Student::Student(std::string &name, std::string &faculty, int group, int score) {
         this->name = name;
         this->faculty = faculty;
         this->group = group;
         this->score = score;
 
     }
-    std::ostream &operator<<(std::ostream &os, const Car &car) {
-        os << car.name << "\t" << car.faculty << "\t" << car.score << "\t" << car.group;
+    std::ostream &operator<<(std::ostream &os, const Student &student) {
+        os << student.name << "\t" << student.faculty << "\t" << student.group << "\t" <<  student.score;
         return os;
     }
 
-    bool Car::operator>(const Car& other) {
+    bool Student::operator>(const Student& other) {
         // compare student's score
         if (this->score > other.score){
             return true;
@@ -29,10 +30,10 @@ namespace car
         }
         else{ // compare name of student
             for (int i =0; i < std::min(this->name.size(), other.name.size()); i++){
-                if (this->name[i] > other.name[i]){
+                if (this->name[i] < other.name[i]){
                     return true;
                 }
-                else if (this->name[i] < other.name[i]){
+                else if (this->name[i] > other.name[i]){
                     return false;
                 }
 
@@ -41,7 +42,7 @@ namespace car
         }
         return false;
     }
-    bool Car::operator<(const Car& other) {
+    bool Student::operator<(const Student& other) {
         // compare student's score
         if (this->score < other.score){
             return true;
@@ -63,7 +64,7 @@ namespace car
         }
         return false;
     }
-    bool Car::operator<=(const Car& other){
+    bool Student::operator<=(const Student& other){
         return !operator>( other);
     }
 
